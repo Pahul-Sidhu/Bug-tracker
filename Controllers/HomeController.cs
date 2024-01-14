@@ -1,9 +1,12 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Bug_tracker.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Bug_tracker.Controllers;
 
+   // need to login to see this page
+    [Authorize]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
