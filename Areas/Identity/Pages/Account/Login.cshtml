@@ -1,0 +1,48 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<div class="page-content">
+    <div class="form-v4-content">
+        <div class="form-left">
+            <h2>Bug tracker</h2>
+            <p class="text-1">Platform designed to manage and track the progress of software issues, bugs, and
+                enhancements.</p>
+            <p class="text-2">A centralized system for development teams to collaborate, communicate, and prioritize
+                tasks.</p>
+            <p class="text-2">"It's not a bug, it's a feature." - Unknown</p>
+             <div class="form-left-last">
+                <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" class="account">Register</a>
+            </div>
+        </div>
+        <form class="form-detail" id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <h2>LOGIN FORM</h2>
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div class="form-row">
+                <label asp-for="Input.Email">Email</label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+                <input asp-for="Input.Email" class="form-control input-text" autocomplete="username"
+                    aria-required="true" placeholder="name@example.com" />
+            </div>
+            <div class="form-group">
+                <div class="form-row form-row-1 ">
+                    <label asp-for="Input.Password">Password</label>
+                    <input asp-for="Input.Password" class="form-control input-text" autocomplete="new-password"
+                        aria-required="true" placeholder="********" />
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-row-last">
+                <input type="submit" name="login" class="register" value="Login" id="login-submit">
+            </div>
+        </form>
+    </div>
+</div>
+<link rel="stylesheet" href="~/css/auth.css" />
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

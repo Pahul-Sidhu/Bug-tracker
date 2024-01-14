@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets/Bug tracker.bundle.scp.css"
     },
     {
+      "Id": "/Users/pahulsidhu/Documents/Development/Projects/Bug tracker/Bug-tracker/wwwroot/css/auth.css",
+      "PackagePath": "staticwebassets/css/auth.css"
+    },
+    {
+      "Id": "/Users/pahulsidhu/Documents/Development/Projects/Bug tracker/Bug-tracker/wwwroot/css/opensans-font.css",
+      "PackagePath": "staticwebassets/css/opensans-font.css"
+    },
+    {
       "Id": "/Users/pahulsidhu/Documents/Development/Projects/Bug tracker/Bug-tracker/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
