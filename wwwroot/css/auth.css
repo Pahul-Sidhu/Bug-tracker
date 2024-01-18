@@ -16,6 +16,10 @@ body {
 	-moz-align-items: center;
 	-webkit-align-items: center;
 }
+
+.demoUrl{
+	color: #fff
+}
 .form-v4-content {
 	background: #fff;
 	width: 850px;

@@ -133,7 +133,6 @@
 /Users/pahulsidhu/Documents/Development/Projects/Bug tracker/Bug-tracker/bin/Debug/net8.0/appsettings.Development.json
 /Users/pahulsidhu/Documents/Development/Projects/Bug tracker/Bug-tracker/bin/Debug/net8.0/appsettings.json
 /Users/pahulsidhu/Documents/Development/Projects/Bug tracker/Bug-tracker/bin/Debug/net8.0/Bug tracker.staticwebassets.runtime.json
-/Users/pahulsidhu/Documents/Development/Projects/Bug tracker/Bug-tracker/bin/Debug/net8.0/app.db
 /Users/pahulsidhu/Documents/Development/Projects/Bug tracker/Bug-tracker/bin/Debug/net8.0/Bug tracker
 /Users/pahulsidhu/Documents/Development/Projects/Bug tracker/Bug-tracker/bin/Debug/net8.0/Bug tracker.deps.json
 /Users/pahulsidhu/Documents/Development/Projects/Bug tracker/Bug-tracker/bin/Debug/net8.0/Bug tracker.runtimeconfig.json
@@ -397,3 +396,4 @@
 /Users/pahulsidhu/Documents/Development/Projects/Bug tracker/Bug-tracker/obj/Debug/net8.0/Bug tracker.pdb
 /Users/pahulsidhu/Documents/Development/Projects/Bug tracker/Bug-tracker/obj/Debug/net8.0/Bug tracker.genruntimeconfig.cache
 /Users/pahulsidhu/Documents/Development/Projects/Bug tracker/Bug-tracker/obj/Debug/net8.0/ref/Bug tracker.dll
+/Users/pahulsidhu/Documents/Development/Projects/Bug tracker/Bug-tracker/bin/Debug/net8.0/app.db

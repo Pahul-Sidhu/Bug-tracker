@@ -14,9 +14,10 @@
             <p class="text-2">A centralized system for development teams to collaborate, communicate, and prioritize
                 tasks.</p>
             <p class="text-2">"It's not a bug, it's a feature." - Unknown</p>
-             <div class="form-left-last">
+             <div class="form-left-last my-3">
                 <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" class="account">Register</a>
             </div>
+            <p class="text-2">Sign in as <a asp-page="./Demo" asp-route-returnUrl="@Model.ReturnUrl" class="demoUrl">demo user</a></p>
         </div>
         <form class="form-detail" id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
             <h2>LOGIN FORM</h2>
