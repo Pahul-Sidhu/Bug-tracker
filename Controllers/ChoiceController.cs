@@ -37,6 +37,12 @@ public class ChoiceController : Controller
 
         if (user != null && !string.IsNullOrEmpty(selectedRole))
         {
+            var roles = _userManager.GetRolesAsync(user).Result;
+            if (roles.Count > 0)
+            {
+                // Redirect to the desired page after sign-in
+                return RedirectToAction("Index", "Home");
+            }
 
             // Add the user to the selected role
             _userManager.AddToRoleAsync(user, selectedRole).Wait();
